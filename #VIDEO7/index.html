@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> SIGMA  WEB DEVELOPMENT  FORMS </h1>
+    <form action="action.php">
+        <div>
+            <label for="username">ENTER YOUR USER NAME : </label>
+            <input type="text" id="username" name="username" placeholder="ENTER YOUR USERNAME">
+        </div>
+        <div>
+            <label for="male"> MALE</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female"> FEMALE</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div><label for="comment"> Enter your comment</label><br>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="ENTER YOUR COMMENT"></textarea>  
+        </div>
+        <div>
+            <label for="schedule">ENTER YOUR WORKING MODE   </label>
+
+            <select id="schedule" name="schedule" autofocus>
+                <option value="full-time"> full time </option>
+                <option value="part-time"> part time </option>
+                <option value="flexible"> flexible </option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
