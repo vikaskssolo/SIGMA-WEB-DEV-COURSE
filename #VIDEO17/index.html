@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-Selectors</title>
+    <style>
+      #first-id {
+        background-color: aqua;
+      }
+
+      .first-class {
+        background-color: burlywood;
+      }
+
+      div {
+        color: blue;
+        background-color: blanchedalmond;
+      }
+
+      div > h4 {
+        background-color: black;
+        color: azure;
+      }
+      *{
+        background-color: blueviolet;
+      }
+
+      a:link{
+        background-color: rgb(182, 174, 189);
+      }
+
+      a:active{
+        color: blanchedalmond;
+
+      }
+      a:visited{
+        background-color: rgb(182, 174, 189);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- id selectors -->
+    <p id="first-id">this is id selectors</p>
+
+    <!-- class selectors  -->
+    <p class="first-class">this is class selectors</p>
+
+    <!-- element selectors  -->
+    <div>
+      <p>this is element selectors</p>
+    </div>
+
+    <!-- child  selectors  -->
+    <div>
+      <h4>this is child selectors</h4>
+    </div>
+
+    <!-- universal selectors  -->
+
+    <!-- pseudo selectors -->
+    <a href="https://www.google.com"> GO TO GOOGLE </a>
+    <br>
+    <a href="https://www.facebook.com"> GO TO FACEBOOK </a>
+  </body>
+</html>
